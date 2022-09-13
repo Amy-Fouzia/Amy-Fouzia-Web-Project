@@ -1,0 +1,49 @@
+h2 {
+    color: #A6808C;
+    text-align: center;
+    font-size: 50px;
+    font-family: "Lucida Handwriting";
+    text-shadow: -3px 0 #4c4552, 0 3px #4c4552, 3px 0 #4c4552, 0 -3px #4c4552;
+    padding: .7em 0 .7em 0;
+    background-image: url("vineHeader.png");
+    background-size: 1060px 100px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+body {
+    background-color: #565264;
+}
+
+img, h1, h3 {
+    float: left;
+    border-radius: 20px;
+    margin-right: auto;
+}
+
+    img.bed {
+        margin-top: 1%;
+        margin-left: 10%;
+        width: 350px;
+        height: 245px;
+    }
+
+    img.vine {
+        margin-top: 1%;
+        margin-left: 1%;
+        width: 150px;
+        height: 245px;
+        background-color: #a2accf;
+    }
+
+h1 {
+    background-color: #a89fb5;
+    color: #565264;
+    font-size: 15px;
+    margin-left: 1%;
+    text-align: center;
+    width: 450px;
+    height: 665px;
+    padding: 1em 1em 0 1em;
+    font-family: "MV Boli";
+}
