@@ -14,3 +14,13 @@ body {
     background-color: #dde5b6;
 }
 
+a {
+    width: 500px;
+    height: 86px;
+    background-repeat: no-repeat;
+}
+
+.center {
+    margin-left: auto;
+    margin-right: auto;
+}
