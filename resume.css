@@ -1,0 +1,15 @@
+h1.header {
+    text-align: center;
+    font-size: 50px;
+    font-family: "Lucida Handwriting";
+    padding: .7em 0 .7em 0;
+    margin-top: 2%;
+    background-image: url("https://Amy-Fouzia.github.io/Images/greenHeader.png");
+    background-size: 1120px 150px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+body {
+    background-color: #dde5b6;
+}

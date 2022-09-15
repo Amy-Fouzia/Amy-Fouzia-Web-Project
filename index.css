@@ -1,10 +1,11 @@
-h1 {
+h1.header {
     text-align: center;
     font-size: 50px;
     font-family: "Lucida Handwriting";
     padding: .7em 0 .7em 0;
+    margin-top: 2%;
     background-image: url("https://Amy-Fouzia.github.io/Images/greenHeader.png");
-    background-size: 1060px 142px;
+    background-size: 1120px 150px;
     background-repeat: no-repeat;
     background-position: center;
 }
@@ -13,7 +14,7 @@ body {
     background-color: #dde5b6;
 }
 
-a {
+a.webDev {
     width: 500px;
     height: 86px;
     background-repeat: no-repeat;
@@ -29,17 +30,18 @@ img.me {
     border: 10px solid #6c584c;
 }
 
-p.info {
+td.info {
     color: darkolivegreen;
+    font-size: 19px;
     font-family: "Lucida Console";
     font-weight: bold;
     text-shadow: -.5px 0 #6c584c, 0 .5px #6c584c, .5px 0 #6c584c, 0 -.5px #6c584c;
-    margin-left: 2%;
-    padding: 10em .1em 10em .1em;
-    background-size: 600px 500px;
-    background-repeat: no-repeat;
-    background-position: center;
+    padding: 1em 1em 1em 1em;
     background-color: #a3a380;
     border-radius: 50px;
     border: 10px solid #6c584c;
 }
+
+table {
+    border-spacing: 10px;
+  }
