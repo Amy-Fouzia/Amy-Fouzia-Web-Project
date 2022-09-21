@@ -1,4 +1,8 @@
-h2 {
+body {
+    background-color: #565264;
+}
+
+h1 {
     color: #A6808C;
     text-align: center;
     font-size: 50px;
@@ -11,39 +15,33 @@ h2 {
     background-position: center;
 }
 
-body {
-    background-color: #565264;
-}
-
-img, h1, h3 {
-    float: left;
-    border-radius: 20px;
+.center {
+    margin-left: auto;
     margin-right: auto;
 }
 
-    img.bed {
-        margin-top: 1%;
-        margin-left: 10%;
-        width: 350px;
-        height: 245px;
-    }
+table {
+    border-spacing: 10px;
+}
 
-    img.vine {
-        margin-top: 1%;
-        margin-left: 1%;
-        width: 150px;
-        height: 245px;
-        background-color: #a2accf;
-    }
 
-h1 {
+img.bed {
+    margin-top: -65%;
+    border-radius: 50px;
+}
+
+img.vine {
+    margin-top: -65%;
+    border-radius: 50px;
+    background-color: #a2accf;
+}
+
+p.Ass01 {
+    border-radius: 50px;
     background-color: #a89fb5;
     color: #565264;
     font-size: 15px;
-    margin-left: 1%;
     text-align: center;
-    width: 450px;
-    height: 665px;
-    padding: 1em 1em 0 1em;
+    padding: 1em 1em 1em 1em;
     font-family: "MV Boli";
 }

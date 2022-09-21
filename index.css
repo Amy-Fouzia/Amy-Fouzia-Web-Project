@@ -1,3 +1,7 @@
+body {
+    background-color: #dde5b6;
+}
+
 h1.header {
     text-align: center;
     font-size: 50px;
@@ -10,17 +14,13 @@ h1.header {
     background-position: center;
 }
 
-body {
-    background-color: #dde5b6;
-}
-
-a.webDev {
-    background-repeat: no-repeat;
-}
-
 .center {
     margin-left: auto;
     margin-right: auto;
+}
+
+table {
+    border-spacing: 10px;
 }
 
 img.me {
@@ -40,6 +40,3 @@ td.info {
     border: 10px solid #6c584c;
 }
 
-table {
-    border-spacing: 10px;
-  }
