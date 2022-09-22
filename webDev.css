@@ -24,9 +24,17 @@ table {
     border-spacing: 10px;
 }
 
+img.cam1 {
+    border-radius: 50px;
+}
+
+img.cam2 {
+    border-radius: 50px;
+}
+
 td.Ass01 {
     border-radius: 50px;
-    background-color: #a89fb5;
+    background-color: #CFC595;
     color: #565264;
 }
 
