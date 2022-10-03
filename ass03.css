@@ -2,10 +2,11 @@ body {
     background-image: url("https://Amy-Fouzia.github.io/Images/ass03_bckgrnd.png");
     background-size: contain;
     background-repeat: no-repeat;
+    background-color: #d2cebd;
 }
 
 h1 {
-    color: #A6808C;
+    color: #6f5e4f;
     text-align: center;
     font-size: 50px;
     font-family: "Lucida Handwriting";
@@ -18,7 +19,59 @@ h1 {
     margin-right: auto;
 }
 
-img {
-    border-radius: 50px;
-    size: 350px 350px;
+p {
+    color: #Bf3636;
+}
+
+p.line1 {
+    margin-left: 5%;
+    margin-bottom: 2%;
+}
+p.line2 {
+    margin-left: 9%;
+}
+p.line3 {
+    margin-left: 3%;
+    margin-top: 3%;
+}
+p.line4 {
+    margin-left: 12%;
+    margin-top: 4%;
+}
+p.line5 {
+    margin-left: 7%;
+}
+p.line6 {
+    margin-top: 5%;
+    margin-left: 15%;
+}
+
+p.grenade {
+    text-align: right;
+}
+p.line7 {
+    margin-right: 10%;
+    margin-bottom: -2%;
+}
+p.line8 {
+    margin-right: 3%;
+}
+p.line9 {
+    margin-right: 20%;
+}
+p.line10 {
+    margin-top: -1%;
+    margin-right: 10%;
+}
+p.line11 {
+    margin-top: 2%;
+    margin-right: 3%;
+}
+p.line12 {
+    margin-top: 2%;
+    margin-right: 15%;
+}
+p.line13 {
+    margin-top: -1%;
+    margin-right: 2%;
 }
