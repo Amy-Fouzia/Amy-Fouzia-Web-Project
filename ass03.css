@@ -1,0 +1,22 @@
+body {
+    background-image: url("https://Amy-Fouzia.github.io/Images/ass03_bckgrnd.png");
+}
+
+h1 {
+    color: #A6808C;
+    text-align: center;
+    font-size: 50px;
+    font-family: "Lucida Handwriting";
+    text-shadow: -3px 0 #4c4552, 0 3px #4c4552, 3px 0 #4c4552, 0 -3px #4c4552;
+    padding: .7em 0 .7em 0;
+}
+
+.center {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+img {
+    border-radius: 50px;
+    size: 350px 350px;
+}
