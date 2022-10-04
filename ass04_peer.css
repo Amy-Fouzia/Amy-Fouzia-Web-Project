@@ -11,18 +11,27 @@
     background-color: white;
 }
   
-#navbar a {
-    float: left;
+#navbar a { 
     display: block;
     color: black;
     text-align: left;
     padding: 14px;
-    text-decoration: none;
-    font-family: 'Billabong', sans-serif;
-    font-size: 40px;;
-    margin-left: 10%;
+    text-decoration: none; 
 }
   
+.home {
+    float: left;
+    font-family: 'Billabong', sans-serif;
+    font-size: 40px;
+    margin-left: 10%;
+}
+
+.nav {
+    float: right;
+    margin-right: 10%;
+    margin-top: 10px;
+}
+
 .sticky {
     position: fixed;
     top: 0;
@@ -35,15 +44,12 @@ body{
 
 .item1 {
     grid-row-start: 1;
-    grid-row-end: 3;
 }
 
 .item2 {
     grid-row-start: 1;
-    grid-row-end: 3;
 }
 
 .item3 {
     grid-row-start: 1;
-    grid-row-end: 3;
 }
