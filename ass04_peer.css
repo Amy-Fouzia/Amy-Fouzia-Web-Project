@@ -4,6 +4,10 @@
     row-gap: 50px;
 }
 
+h1 {
+    font-family: 'Billabong', sans-serif;
+}
+
 .item1 {
     grid-row-start: 1;
     grid-row-end: 3;
