@@ -6,7 +6,7 @@
     grid-template-rows: repeat(3, 1fr);
     width: 90vw;
     height: 130vh;
-    border: 1px solid black;
+    border: 2px solid white;
 }
 
 #navbar {
@@ -80,15 +80,41 @@ body{
 
 .item1 {
     grid-row-start: 1;
-    border: 1px solid black;
+    border: 10px solid white;
 }
 
 .item2 {
     grid-row-start: 1;
-    border: 1px solid black;
+    border: 10px  solid white;
 }
 
 .item3 {
     grid-row-start: 1;
-    border: 1px solid black;
+    border: 10px  solid white;
 }
+
+.item4 {
+    border: 10px  solid white;
+}
+
+.item5 {
+    border: 10px  solid white;
+}
+
+.item6 {
+    border: 10px  solid white;
+}
+
+.item7 {
+    border: 10px  solid white;
+}
+
+.item8 {
+    border: 10px  solid white;
+}
+
+.item9 {
+    border: 10px  solid white;
+}
+
+
