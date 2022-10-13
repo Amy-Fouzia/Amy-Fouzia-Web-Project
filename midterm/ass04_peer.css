@@ -1,0 +1,94 @@
+.grid {
+    display: inline-grid;
+    margin-left: 50px;
+    margin-right: 50px;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    width: 90vw;
+    height: 130vh;
+    border: 1px solid black;
+}
+
+#navbar {
+    overflow: hidden;
+    box-shadow: 2px 2px 2px rgba(0,0,0,.2);
+    background: fixed;
+    background-color: white;
+}
+
+#navbar a {
+    display: block;
+    color: black;
+    text-align: left;
+    padding: 14px;
+    text-decoration: none;
+}
+
+.home {
+    float: left;
+    font-family: 'Billabong', sans-serif;
+    font-size: 40px;
+    margin-left: 10%;
+}
+
+.nav {
+    float: right;
+    margin-right: 10%;
+    margin-top: 10px;
+}
+
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+.flex-container {
+    padding-right: 200px;
+    padding-left: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.profileinfo {
+    text-align: center;
+    font-family: 'Abril Fatface', cursive;
+    font-family: 'Kalam', cursive;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+.bio{
+    padding-left: 50px;
+}
+
+#name{
+  font-size: 125%;
+  font-family: 'Abril Fatface', cursive;
+  font-family: 'Kalam', cursive;
+  font-family: 'Roboto Condensed', sans-serif;
+}
+
+#bioinfo{
+  font-family: 'Abril Fatface', cursive;
+  font-family: 'Kalam', cursive;
+  font-family: 'Roboto Condensed', sans-serif;
+}
+
+body{
+    margin-top: 10%;
+}
+
+.item1 {
+    grid-row-start: 1;
+    border: 1px solid black;
+}
+
+.item2 {
+    grid-row-start: 1;
+    border: 1px solid black;
+}
+
+.item3 {
+    grid-row-start: 1;
+    border: 1px solid black;
+}
