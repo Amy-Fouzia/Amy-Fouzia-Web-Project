@@ -1,8 +1,8 @@
-#canvas{
-    display:block;
-    justify-self: center;
-    align-self:center;
-    width: 1100;
-    height: 741;
-    background: url('https://fiverr-res.cloudinary.com/images/q_auto,f_auto/gigs/22399837/original/1ff0d806f14ac2e69f78783b2e6624f4a872c454/draw-sweetness-illustrations-for-childrens.jpg');
+body{
+    background-image: url("https://Amy-Fouzia.github.io/Images/color.png");
+    background-repeat: no-repeat;
+}
+
+.right {
+    margin-right: 0;
 }
