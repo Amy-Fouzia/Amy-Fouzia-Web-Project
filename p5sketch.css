@@ -3,6 +3,8 @@ body{
     background-repeat: no-repeat;
 }
 
-.right{
-    text-align: right;
+h1{
+    text-align: center;
+    font-family: 'Lucida Sans';
 }
+
