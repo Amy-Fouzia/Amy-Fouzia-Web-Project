@@ -1,3 +1,4 @@
+//source: https://code.tutsplus.com/tutorials/how-to-create-presentation-slides-with-html-and-css--net-19870
 // get elements
 let presentation = document.querySelector(".presentation");
 let slides = document.querySelectorAll(".slide");
