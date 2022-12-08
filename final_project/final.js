@@ -1,4 +1,6 @@
 //https://www.youtube.com/watch?v=7JtLHJbm0kA&t=14s&ab_channel=Frankslaboratory
+alert('hit -> or <- arrows');  
+
 window.addEventListener('load', function(){
     const canvas = document.getElementById('canvas1');
     const ctx = canvas.getContext('2d');
