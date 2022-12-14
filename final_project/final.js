@@ -177,24 +177,6 @@ window.addEventListener('load', function(){
         }
     }
 
-    class Door{
-        constructor(gameWidth, gameHeight){
-            this.gameWidth = gameWidth;
-            this.gameHeight = gameHeight;
-            this.width = 131;
-            this.height = 220;
-            this.x = 0;
-            this.y = this.gameHeight- this.height;
-            this.image = document.getElementById('door');
-            this.frameX = 0;
-            this.frameY = 0;
-            this.speed = 0;
-        }
-        draw(context){
-            context.drawImage(this.image, this.frameX*this.width, this.frameY*this.height, this.width, this.height, 1000, this.y, this.width, this.height);
-        }
-    }
-
     function dispplayStatusText(){ //to display objects
 
     }
@@ -202,15 +184,13 @@ window.addEventListener('load', function(){
     const input = new InputHandler();
     const player = new Player(canvas.width, canvas.height);
     const background = new Background(canvas.width, canvas.height);
-    const door = new Door(canvas.width, canvas.height);
 
     function animate(){ //animates screen
         ctx.clearRect(0,0,canvas.width,canvas.height);
         background.draw(ctx);
         background.update();
         player.draw(ctx);
-        player.update(input,door);
-        //door.draw(ctx);
+        player.update(input);
         requestAnimationFrame(animate);
     }
     animate();
