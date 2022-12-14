@@ -33,6 +33,7 @@ window.addEventListener('load', function(){
             this.frameX = 0;
             this.frameY = 0;
             this.speed = 0;
+            changePage = 0;
         }
         draw(context){
             //context.fillStyle = 'white';
@@ -49,25 +50,40 @@ window.addEventListener('load', function(){
             this.x += this.speed;
             //movement w arrows
             if (input.keys.indexOf('ArrowRight') > -1){
+
                 if (changePage == 1){ //dhaka page
-                    this.image = document.getElementById('playerImage')//add teacup on poem cover page
+                    this.image = document.getElementById('rickshaw')//add teacup on poem cover page
                     this.speed = 5;
                 } else if (changePage == 2){ //poem cover page
                     this.image = document.getElementById('playerTea')//add teacup on poem cover page 
                     this.speed = 5;
                 } else if (changePage == 3){ //poem page
-                    this.image = document.getElementById('playerImage');
+                    this.image = document.getElementById('gloves');
                     this.speed = 5;
+                } else if (changePage == 4 || changePage == 5 || changePage == 6){ //fashion page
+                    this.image = document.getElementById('sari');
+                    this.speed = 5;   
                 } else{
                     this.image = document.getElementById('playerImage');
                     this.speed = 5;
                 }
 
             } else if (input.keys.indexOf('ArrowLeft') > -1){
-                this.image = document.getElementById('playerMirrorImage');
-                if (changePage == 1){ //dhaka page
+                if (changePage == 0){ //cover page
+                    this.image = document.getElementById('boatMirror');
                     this.speed = -5;
-                } else {
+                }
+                if (changePage == 1){ //dhaka page
+                    this.image = document.getElementById('rickshawMirror');
+                    this.speed = -5;
+                }else if (changePage == 3){ //poem page
+                    this.image = document.getElementById('glovesMirror');
+                    this.speed = -5;
+                } else if (changePage == 4 || changePage == 5 || changePage == 6){ //fashion page
+                    this.image = document.getElementById('sariMirror');
+                    this.speed = -5;   
+                }else {
+                    this.image = document.getElementById('playerMirrorImage');
                     this.speed = -5;
                 }
                 
