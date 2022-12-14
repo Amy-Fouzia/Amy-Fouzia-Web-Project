@@ -32,13 +32,24 @@ html, body{
 
 .dog2{
     position: absolute;
-    top: 200px;
+    top: 250px;
     left: 0;
     animation-name: drive;
     animation-duration: 5s;
     animation-fill-mode: both;
     animation-iteration-count: infinite;
     animation-direction: normal;
+}
+
+.dog3{
+    position: absolute;
+    top: 425px;
+    left: 0;
+    animation-name: drive;
+    animation-duration: 3s;
+    animation-fill-mode: both;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
 }
   
   @keyframes drive {
