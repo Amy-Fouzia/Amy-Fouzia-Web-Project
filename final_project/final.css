@@ -10,7 +10,7 @@ body {
     border: 5px solid white;
 }
 
-#playerImage, #backgroundImage {
+#playerImage, #back1, #playerMirrorImage, #door, #playerUpImage, #back2, #magic1, #playerTea , #poem, #fashionhistory, #fashion{
     display: none;
 }
 
