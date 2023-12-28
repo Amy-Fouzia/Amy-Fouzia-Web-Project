@@ -1,0 +1,16 @@
+body {
+    background: black;
+}
+
+#canvas1 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border: 5px solid white;
+}
+
+#playerImage, #back1, #playerMirrorImage, #door, #playerUpImage, #back2, #magic1, #playerTea , #poem, #fashionhistory, #fashion, #rickshaw, #rickshawMirror, #glovesMirror, #glove, #sari, #sariMirror{
+    display: none;
+}
+
